@@ -1,10 +1,15 @@
 🚀 CSE391 – Nền tảng Phát triển Web
+
 Kho lưu trữ mã nguồn và lộ trình học tập 
+
 Học viên thực hiện: Nguyễn Vũ Lộc – Trường Đại học Thủy Lợi.
 
 👤 Thông tin cá nhân
+
 Sinh viên: Nguyễn Vũ Lộc
+
 Học phần: CSE391 – Nền tảng Phát triển Web
+
 Khoa Công nghệ thông tin - Trường Đại học Thủy Lợi
 
 📖 Giới thiệu dự án
