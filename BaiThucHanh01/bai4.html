@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form>
+    <table border="1" cellpadding="10" align="center">
+        <tr>
+            <td>
+                <table width="100%">
+                    <tr>
+                        <td colspan="2">
+                            <h3>Basic Info</h3>
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Employee ID</b></td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td><b>Last Name</b></td>
+                        <td>Dodsworth</td>
+                    </tr>
+                    <tr>
+                        <td><label for="fname"><b>First Name</b></label></td>
+                        <td><input type="text" id="fname" name="firstname" value="Anne" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender"><b>Gender</b></label></td>
+                        <td>
+                            <input type="radio" id="gender" name="gender"> Male<br>
+                            <input type="radio" id="gender" name="gender"> Female<br>
+                            <input type="radio" id="gender" name="gender"> XXX<br>
+                            <input type="radio" id="gender" name="gender" checked> ZZZ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="title"><b>Title</b></label></td>
+                        <td><input type="text" id="title" name="title" value="Sales Representative" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="suffix"><b>Suffix</b></label></td>
+                        <td><input type="text" id="suffix" name="suffix" value="Ms." size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="birthdate"><b>BirthDate</b></label></td>
+                        <td><input type="datetime-local" id="birthdate" name="birthdate" value="1969-07-02 00:00:00" step="1" style="width: 96%" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="hiredate"><b>HireDate</b></label></td>
+                        <td><input type="datetime-local" id="hiredate" name="hiredate" value="1994-11-15 00:00:00" step="1" style="width: 96%"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ssn"><b>SSN # (if applicable)</b></label></td>
+                        <td><input type="password" id="ssn" name="ssn" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="reportsto"><b>Reports To</b></label></td>
+                        <td>
+                            <select id="reportsto" name="reportsto">
+                                <option value="buchanan"selected>Buchanan</option>
+                                <option value="fuller">Fuller</option>
+                                <option value="leverling">Leverling</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table width="100%">
+                    <tr>
+                        <td colspan="2">
+                            <h3>Contact Info</h3>
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"><b>Email</b></label></td>
+                        <td><input type="text" id="email" name="email" placeholder="name@example.com" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address"><b>Address</b></label></td>
+                        <td><input type="text" id="address" name="address" value="7 Houndstooth Rd." size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city"><b>City</b></label></td>
+                        <td><input type="text" id="city" name="city" value="London" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="region"><b>Region</b></label></td>
+                        <td><input type="text" id="region" name="region" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="postal"><b>Postal Code</b></label></td>
+                        <td><input type="text" id="postal" name="postal" value="WG2 7LT" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country"><b>Country</b></label></td>
+                        <td>
+                            <select id="country" name="country">
+                                <option value="vietnam">Viet Nam</option>
+                                <option value="usa">USA</option>
+                                <option value="russia" selected>Russian Federation</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"><b>US Home Phone</b></label></td>
+                        <td><input type="tel" id="phone" name="phone" value="(234)234-2342" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="photo"><b>Photo</b></label></td>
+                        <td><input type="text" id="photo" name="photo" value="EmpID9.bmp" size="60"></td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table width="100%">
+                    <tr>
+                        <td colspan="2">
+                            <h3>Optional Info</h3>
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="25%" valign="top">
+                            <label for="notes"><b>Notes</b></label>
+                        </td>
+                        <td>
+                            <div align="left">
+                                <button type="button"><b>B</b></button>
+                                <button type="button"><i>I</i></button>
+                                <button type="button"><u>U</u></button>
+                                <button type="button">Align</button>
+                                <button type="button">List</button>
+                            </div>
+                            <textarea id="notes" name="notes" rows="6" cols="62">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><b>Preferred Shift</b></td>
+                        <td>
+                            <input type="checkbox" name="shift_reg" id="shiftreg"> 
+                            <label for="shiftreg">Regular</label><br>
+                            
+                            <input type="checkbox" name="shift_gravy" id="shiftgravy" checked> 
+                            <label for="shiftgravy">Gravy Yard</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="active"><b>Active?</b></label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="active" id="active" checked>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="bottom">
+                            <label for="captcha"><b>Are you human?</b></label>
+                        </td>
+                        <td>
+                            <font size="5" face="Courier New">T I D A W O</font><br>
+                            <small>Click to change</small><br>
+                            <input type="text" name="captcha" id="captcha" size="60">
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+                <hr>
+
+                <table width="100%" border="0">
+                    <tr>
+                        <td align="left">
+                            <button type="button" id="prev">&lt;</button>
+                            <button type="button" id="next">&gt;</button>
+                            <small>* required</small>
+                        </td>
+                        <td align="right">
+                            <button type="submit" id="submit">Submit</button>
+                            <button type="button" id="cancel">Cancel</button>
+                        </td>
+                    </tr>
+                </table>
+            
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html> 
+            
