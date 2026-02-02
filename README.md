@@ -29,11 +29,17 @@ Triển khai các đồ án thực tế dựa trên yêu cầu từ giảng viê
 Dựa trên lộ trình thực hành thực tế, các tệp tin được tổ chức như sau:
 
 Plaintext
+
 ├── BaiThucHanh/      # Các bài tập thực hành các buổi  (HTML/CSS cơ bản)
+
 │   ├── baitap.html       # File code bài tập
+
 │   └── ...             # Các tệp tin liên quan khác
+
 └── README.md           # Tài liệu hướng dẫn và giới thiệu tổng quan
+
 🛠 Công cụ sử dụng
+
 Editor: Visual Studio Code
 
 Version Control: Git
