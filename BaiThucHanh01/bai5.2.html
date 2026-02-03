@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<HTML>
+<body>
+<div style="background-color: white; width: 600px; border: 1px solid #0d6efd; border-radius: 8px; font-family: Arial, sans-serif; overflow: hidden; margin: 20px auto; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+    
+    <table width="100%" bgcolor="#0d6efd" cellpadding="15">
+        <tr>
+            <td><strong style="color: white; font-size: 18px;">New Employee</strong></td>
+            <td align="right"><span style="color: white; cursor: pointer; font-size: 20px; font-weight: bold;">&times;</span></td>
+        </tr>
+    </table>
+
+    <div style="padding: 20px;">
+        <table width="100%" cellpadding="10">
+            <tr>
+                <td width="50%">
+                    <label style="display: block; margin-bottom: 5px; color: #555;">Name</label>
+                    <input type="text" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+                </td>
+                <td width="50%">
+                    <label style="display: block; margin-bottom: 5px; color: #555;">Email</label>
+                    <input type="email" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="display: block; margin-bottom: 5px; color: #555;">Phone</label>
+                    <input type="text" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+                </td>
+                <td>
+                    <label style="display: block; margin-bottom: 5px; color: #555;">Position</label>
+                    <select style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; background-color: white;">
+                        <option>-- Select Position --</option>
+                        <option>Staff</option>
+                        <option>Manager</option>
+                        <option>CEO</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label style="display: block; margin-bottom: 5px; color: #555;">Sex</label>
+                    <input type="radio" name="sex" id="male"> <label for="male" style="margin-right: 15px;">Male</label>
+                    <input type="radio" name="sex" id="female"> <label for="female">Female</label>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <table width="100%" cellpadding="15" style="border-top: 1px solid #eee; background-color: #fcfcfc;">
+        <tr>
+            <td align="right">
+                <button style="background-color: #198754; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; margin-right: 10px;">Save</button>
+                <button style="background-color: #6c757d; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold;">Cancel</button>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</HTML>
