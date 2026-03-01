@@ -1,0 +1,66 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: rgba(255, 255, 255, 0.1); 
+    position: absolute; 
+    width: 90%;
+}
+
+#page-logo a {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2rem;
+    color: #fff9d7;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li { margin-left: 1.5rem; }
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin: 0 15px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    filter: brightness(0) invert(1); 
+    transition: all 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}

@@ -1,0 +1,66 @@
+#hero {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('https://m.media-amazon.com/images/S/abs-image-upload-na/2/AmazonStores/ATVPDKIKX0DER/16fda0698407581e1526f16a06660190.w2000.h1402.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    border-radius: 8px;
+    color: white;
+}
+
+#hero-content h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#hero-content a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #ffeb3b;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#highlights {
+    padding: 4rem 5%;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.destination {
+    width: 30%;
+}
+
+.destination img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.destination p {
+    margin-top: 1rem;
+    color: #00796b;
+    font-weight: bold;
+}
