@@ -50,9 +50,12 @@ a:hover{
 }
 
 .posts {
-    margin: 10px auto; 
-    max-width: 1200px; 
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 40px auto;
 }
 
 .card {
@@ -63,6 +66,7 @@ a:hover{
     margin: 10px;
     background: white;
     border-radius: 8px;
+    flex: 1 1 300px;
 }
 
 .btn {
@@ -76,6 +80,82 @@ a:hover{
 
 .btn:hover {
     background: #0056b3;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #f8f9fa;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .posts {
+        flex-direction: column;
+    }
+    
+    .card {
+        flex: 1 1 100% 
+    }
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.item {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 2rem;
+    border-radius: 8px;
+}
+
+.gallery {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5)
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.scroll-top:hover {
+    background: #0056b3;
+    transform: scale(1.1) 
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
 }
 
 
